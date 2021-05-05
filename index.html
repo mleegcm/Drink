@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<link href="style.css" rel="stylesheet">
+	<title>음료수 테스트</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div id="blocks">
+		<div class="drink block" id="header">
+		<h1>음료로 알아보는<br>나의 성격은?</h1>
+		</div>
+		
+		<div id="selection">
+		  <h2>&lt;Test 1&gt;</h2>
+			<p>목이 말라 충동적으로 들어간</p>
+			<p>카페에서 <span id="strong">어떤 음료</span>를 마실 것 인가?</p>
+			<img src="selection.jpg" style="width: 100%">
+		</div>
+		
+		<div class="block" id="coffee">
+			<img src="coffee.jpg">
+			<h3>음료수를 컵에 </h3>
+		</div>
+		
+		<div class="block" id="coke">
+			<img src="coke.jpg">
+			<h3>음료를 컵에 </h3>
+		</div>
+		
+		<div class="block" id="juice">
+			<img src="juice.jpg">
+			<h3>컵에 음료수를 </h3>
+		</div>
+		
+		<div class="block" id="tea">
+			<img src="tea.jpg">
+			<h3>컵에 음료를 </h3>
+		</div>
+			
+		<div class="test2">
+		  <h2>&lt;Test 2&gt;</h2>
+		  <p><span class="reveal">음료수를 컵에 </span>따라 마실 때<br><span style="">컵의 <span id="strong">몇 % 정도</span>까지 채우는가?</p>
+		  
+		  <img class="glass" src="glass.png">
+		  
+		  <p class="result" onclick="
+		  if (this.innerText == '결과 확인') {
+		    this.innerHTML = '컵이 채워진 높이는<br> 자긍심의 높이입니다!';
+		    } 
+		    else {
+		    this.innerText = '결과 확인';
+		  }">결과 확인</P>
+		  
+		</div>
+		
+    
+	<script src="script.js"></script>
+</body>
+</html>
