@@ -45,7 +45,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 #coffee {
-  padding-top: 95px;
+  padding-top: 110px;
 }
 
 #strong {
@@ -65,7 +65,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   color: #574042;
   background-color: #f2b2bc;
   min-height: 65vh;
-  padding-top: 15px;
+  padding-top: 8px;
 }
 
 #tea {
@@ -94,7 +94,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 .glass {
   width: 60%;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   padding-top: 40px;
   width: 70%;
 }
