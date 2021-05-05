@@ -26,9 +26,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 #header {
-	min-height: 40vh;
+	min-height: 33vh;
 	padding : 20px;
-	padding-top: 30px;
+	padding-top: 15px;
+        padding-bottom: 0px;
 	font-family: 'Typo_Dodam L';
 	font-size: 30px;
 	font-weight: bold;
@@ -64,7 +65,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   align-items: center;
   color: #574042;
   background-color: #f2b2bc;
-  min-height: 65vh;
+  min-height: 60vh;
   padding-top: 8px;
 }
 
