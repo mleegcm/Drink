@@ -26,7 +26,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 #header {
-	min-height: 30vh;
+	min-height: 33vh;
 	padding : 20px;
 	padding-top: 30px;
 	font-family: 'Typo_Dodam L';
@@ -94,7 +94,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 .glass {
   width: 60%;
-  padding-bottom: 70px;
+  padding-bottom: 68px;
   padding-top: 40px;
   width: 70%;
 }
